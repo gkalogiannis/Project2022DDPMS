@@ -36,11 +36,11 @@ public class ESManager {
     public RestHighLevelClient CreateHighLevelClient()
             throws IOException, KeyStoreException, NoSuchAlgorithmException, CertificateException {
 
-        boolean useSSL = true;        
+        boolean useSSL = false;        
         
         HttpHost httpHost = new HttpHost("localhost", 9200, "https");
         CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
-        credentialsProvider.setCredentials(AuthScope.ANY,new UsernamePasswordCredentials(Project_Properties.Elasticsearch_username, Project_Properties.Elasticsearch_password));//ibByBITMZhbIe10BRtWG
+        credentialsProvider.setCredentials(AuthScope.ANY,new UsernamePasswordCredentials(Project_Properties.Elasticsearch_username, Project_Properties.Elasticsearch_password));
         
         RestClientBuilder lowLevelClientBuilder = RestClient.builder(httpHost);
 
