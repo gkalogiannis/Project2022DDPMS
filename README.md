@@ -27,6 +27,7 @@ To Elasticsearch, είναι μια μηχανή αναζήτησης πραγμ
 2. openjdk version 1.8 / 
 3. Maven (latest version). Δείτε περισσότερα στα κάτωθι links
 https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-18-04/
+
 https://www.baeldung.com/install-maven-on-windows-linux-mac
 
     
