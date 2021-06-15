@@ -56,18 +56,12 @@ To Elasticsearch, είναι μια μηχανή αναζήτησης πραγμ
     ```console
       mvn -version
     ```
-
-      Δείτε περισσότερα επίσης στα κάτωθι links αναφορικά με το Maven
-
-<https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-18-04/>
-
-<https://maven.apache.org/install.html>
-
-<https://www.baeldung.com/install-maven-on-windows-linux-mac>
-
 # Download dependencies και compile (under Maven)
 
 Μεταβείτε στον root φάκελο του Project και εκτελέστε διαδοχικά
-    ```console
-      mvn -version
-    ```
+
+
+```console
+mvn clean
+mvn clean install
+```
