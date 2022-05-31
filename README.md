@@ -1,4 +1,4 @@
-# Project2021DDPMS
+# Project2022DDPMS
 
 Ανάπτυξη Εφαρμογής για εκτέλεση αναζητήσεων στο περιβάλλον του Elasticsearch
 
